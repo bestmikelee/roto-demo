@@ -1,6 +1,6 @@
 # ROTOQL Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+### Demo Link: https://tells.github.io/roto-demo
 
 ---
 
@@ -18,3 +18,7 @@ The API that you will be using is a graphql API, not a RESTFUL api. If you are u
 `https://api-qa.squadql.com/graphql?query=query%20test%20{%20%20auth(token%3A%20"f1432e0d-557d-466f-877c-8fc6631e7594%201209600.DXI9Xg.hJQWCPmhzOyCBMWPXRAj2mutuaA")%20{%20%20%20%20fantasyTeam(id%3A%20"118f812b-6505-4d01-8d62-4d9aab7592d4")%20{%20%20%20%20%20%20name%20%20%20%20%20%20fantasyPlayers%20{%20%20%20%20%20%20%20%20isStarting%20%20%20%20%20%20%20%20eligiblePositions%20%20%20%20%20%20%20%20realPlayer%20{%20%20%20%20%20%20%20%20%20%20fullName%20%20%20%20%20%20%20%20%20%20imageUrl%20%20%20%20%20%20%20%20}%20%20%20%20%20%20}%20%20%20%20}%20%20}}&operationName=test`
 
 The data that the API returns will come in several nested parts. The first is a fantasy team which contains general information such as a name and an id that links all the fantasy players. Within the fantasy team there fantasy players which tells what positions in the fantasy league are the players eligible for, if they are starting or benched, or other fantasy information about them. Within a fantasy player is a real player which corresponds to static information about the real player who the fantasy player represents, this contains their full name and their headshot URL.
+
+---
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
