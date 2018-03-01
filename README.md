@@ -1,4 +1,4 @@
-# ROTOQL Demo
+# RotoQL Demo
 
 ### Demo Link: https://tells.github.io/roto-demo
 
