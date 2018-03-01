@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ApolloApp from "./ApolloApp";
+import SimpleApp from "./SimpleApp";
+// Can import ApolloApp once Cors issues are sorted
 
-ReactDOM.render(<ApolloApp />, document.getElementById("root"));
+ReactDOM.render(<SimpleApp />, document.getElementById("root"));

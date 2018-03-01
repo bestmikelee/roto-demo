@@ -1,0 +1,232 @@
+{
+  "data": {
+    "auth": {
+      "fantasyTeam": {
+        "name": "Second Look",
+        "fantasyPlayers": [
+          {
+            "isStarting": true,
+            "eligiblePositions": ["rf"],
+            "realPlayer": {
+              "fullName": "Nick Markakis",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9927813.jpg"
+            }
+          },
+          {
+            "isStarting": false,
+            "eligiblePositions": ["3b"],
+            "realPlayer": {
+              "fullName": "Kris Bryant",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9928124.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["sp"],
+            "realPlayer": {
+              "fullName": "Taijuan Walker",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9925924.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["rp"],
+            "realPlayer": {
+              "fullName": "Archie Bradley",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9925865.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["rp"],
+            "realPlayer": {
+              "fullName": "Walker Buehler",
+              "imageUrl": null
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["sp"],
+            "realPlayer": {
+              "fullName": "Madison Bumgarner",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9944332.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["rp"],
+            "realPlayer": {
+              "fullName": "Anthony Swarzak",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9895765.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["1b"],
+            "realPlayer": {
+              "fullName": "Eric Thames",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9944402.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["cf"],
+            "realPlayer": {
+              "fullName": "Alex Verdugo",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9943923.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["c"],
+            "realPlayer": {
+              "fullName": "Austin Barnes",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9943900.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["lf"],
+            "realPlayer": {
+              "fullName": "Rhys Hoskins",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9912090.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["ss"],
+            "realPlayer": {
+              "fullName": "Amed Rosario",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9944962.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["rp"],
+            "realPlayer": {
+              "fullName": "Kyle Barraclough",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9944034.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["3b"],
+            "realPlayer": {
+              "fullName": "Nick Senzel",
+              "imageUrl": null
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["1b"],
+            "realPlayer": {
+              "fullName": "Tommy Joseph",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9907292.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["ss"],
+            "realPlayer": {
+              "fullName": "Trea Turner",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9202805.jpg"
+            }
+          },
+          {
+            "isStarting": false,
+            "eligiblePositions": ["rf"],
+            "realPlayer": {
+              "fullName": "Bryce Harper",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9895750.jpg"
+            }
+          },
+          {
+            "isStarting": false,
+            "eligiblePositions": ["sp"],
+            "realPlayer": {
+              "fullName": "Noah Syndergaard",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9944817.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["sp"],
+            "realPlayer": {
+              "fullName": "Kyle Freeland",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9911951.jpg"
+            }
+          },
+          {
+            "isStarting": false,
+            "eligiblePositions": ["sp"],
+            "realPlayer": {
+              "fullName": "Luis Castillo",
+              "imageUrl": null
+            }
+          },
+          {
+            "isStarting": false,
+            "eligiblePositions": ["lf"],
+            "realPlayer": {
+              "fullName": "Michael Conforto",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9944878.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["3b"],
+            "realPlayer": {
+              "fullName": "Brian Anderson",
+              "imageUrl": null
+            }
+          },
+          {
+            "isStarting": false,
+            "eligiblePositions": ["2b"],
+            "realPlayer": {
+              "fullName": "Josh Harrison",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9944748.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["sp"],
+            "realPlayer": {
+              "fullName": "Mike Foltynewicz",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/10095807.jpg"
+            }
+          },
+          {
+            "isStarting": true,
+            "eligiblePositions": ["3b"],
+            "realPlayer": {
+              "fullName": "Johan Camargo",
+              "imageUrl":
+                "https://ssl.gannett-cdn.com/usatsimg/image/thumb/250-250/9927819.jpg"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
