@@ -3,7 +3,9 @@ import { gql } from "apollo-boost";
 import { Query } from "react-apollo";
 
 // Taken from Apollo Docs.
-
+// Could have moved this portion to the ./ApolloApp.js module
+// However, it may make more sense to keep this portion more modular
+// in case of different queries/component combinations
 const GET_PLAYERS = gql`
   query test {
     auth(

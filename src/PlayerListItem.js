@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+// material-ui styling
 import { withStyles } from "material-ui/styles";
 import { ListItem, ListItemText } from "material-ui/List";
 import Avatar from "material-ui/Avatar";
 import Typography from "material-ui/Typography";
-
+// more styling
 const styles = theme => ({
   root: {
     width: "100%",
@@ -14,11 +15,12 @@ const styles = theme => ({
 });
 
 class PlayerListItem extends Component {
+  // imageUrl not required as it is not 100% available
   static propTypes = {
     fullName: PropTypes.string.isRequired,
     imageUrl: PropTypes.string,
     eligiblePositions: PropTypes.array.isRequired,
-    isStarting: PropTypes.bool
+    isStarting: PropTypes.bool.isRequired
   };
   render() {
     const { classes } = this.props;
@@ -40,5 +42,5 @@ class PlayerListItem extends Component {
     );
   }
 }
-
+// wrap component with styles
 export default withStyles(styles)(PlayerListItem);

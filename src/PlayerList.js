@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import PlayerListItem from "./PlayerListItem";
+// material-ui styling
 import { withStyles } from "material-ui/styles";
 import AppBar from "material-ui/AppBar";
 import List from "material-ui/List";
-
 import Toolbar from "material-ui/Toolbar";
 import Typography from "material-ui/Typography";
-const uuidv4 = require("uuid/v4");
-
+// generate unique keys since all imageUrls are not available
+import uuidv4 from "uuid/v4";
+// more styling
 const styles = theme => ({
   root: {
     flexGrow: 1
@@ -24,7 +25,8 @@ class PlayerList extends Component {
     fantasyPlayers: PropTypes.array.isRequired,
     teamName: PropTypes.string.isRequired
   };
-
+  // obtain playerIds as keys from imageUrl
+  // if not available, generate uuid
   getKeyFromImageUrl(imgUrl) {
     if (!imgUrl) {
       return uuidv4();
@@ -36,6 +38,7 @@ class PlayerList extends Component {
   }
 
   render() {
+    // styling
     const { classes } = this.props;
     return (
       <div>
@@ -49,6 +52,7 @@ class PlayerList extends Component {
         <List className={classes.list}>
           {this.props.fantasyPlayers
             .sort((p1, p2) => {
+              // sort by starters and bench players
               if (p1.isStarting) {
                 return -1;
               } else {
@@ -71,5 +75,5 @@ class PlayerList extends Component {
     );
   }
 }
-
+// wrap component with styles
 export default withStyles(styles)(PlayerList);

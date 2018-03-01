@@ -7,6 +7,7 @@ import App from "./App";
 // This was a component meant to use the Apollo GraphQL Client
 // Cors issuses stopped further progress.
 // using data.json now as a mock data set
+// plugging in ./SimpleApp.js as the top-level container
 
 /**
  * Thought manually customizing fetch would help with cors
@@ -23,6 +24,7 @@ const customFetch = (uri, options) => {
   return fetch(uri, options);
 };
 
+// using Apollo's beta release
 const client = new ApolloClient({
   link: new HttpLink({
     uri: "https://api-qa.squadql.com/graphql",
